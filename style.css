@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+ 
+}
+
+body{
+    overflow-x: hidden;
+    /* position: relative; */
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Khula", sans-serif;
+}
+
+
+.container {
+    width: 100vw;
+    
+}
+
+.logo {
+    transform: rotate(180deg);
+    /* position: absolute; */
+    /* right: 0; */
+    /* padding: 0; */
+    /* margin: 0; */
+    width: 15rem;
+    margin-left: auto;
+}
+
+.logo img {
+    height: 10rem;
+}
+
+
+h5{
+    margin-top: 3rem;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+    color: rgb(185, 75, 248);
+    font-style: italic;
+    font-family: cursive;
+    margin-top: 1rem;
+}
+
+
+
+
+
+.name {
+    border-radius: 1.5rem;
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    margin-top: 10rem;
+    margin-left: 37%;
+    background-color: rgb(185, 75, 248);
+    color: white;
+    font-size: 3.5rem;
+}
+
+.para {
+    margin: auto;
+    width: 75vw;
+    margin-top: 10rem;
+    font-size: 5.1rem;
+}
+
+p {
+    text-align: center;
+}
+
+.dash {
+    /* margin: auto; */
+    margin-top: 6rem;
+    /* margin-left: 12%; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.line {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.name2 {
+    border-radius: 1.5rem;
+    width: 55rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    margin-top: 6rem;
+    margin-left: 36%;
+    background-color: rgb(185, 75, 248);
+    color: white;
+    font-size: 2.8rem;
+}
+
+.box {
+    width: 26rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    width: 100vw;
+    gap: 15rem;
+}
+
+.profile img {
+    height: 21rem;
+    width: 19rem;
+}
+
+.info {
+    display: contents;
+    font-size: 3rem;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+
+
+.section1 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    position: relative
+}
+
+.section2 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    position: relative;
+}
+
+.logo1 {
+    position: absolute;
+    left: 0;
+}
+
+.logo1 img {
+    height: 10rem;
+}
+
+.name3 {
+    border-radius: 1.5rem;
+    width: 45rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(185, 75, 248);
+    color: white;
+    font-size: 2.8rem;
+}
+
+.logoo {
+    transform: rotate(180deg);
+    position: absolute;
+    right: 0;
+}
+
+.logoo img {
+    height: 10rem;
+}
+
+.name4 {
+    border-radius: 1.5rem;
+    width: 45rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(185, 75, 248);
+    color: white;
+    font-size: 2.8rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    html{
+        font-size: 30%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1600px) {
+
+    html{
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+
+    html{
+        font-size: 40%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+    html{
+        font-size: 30%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    html{
+        font-size: 20%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+
+    html{
+        font-size: 18%;
+    }
+}
+
+
+
+@media screen and (max-width: 420px) {
+
+    html{
+        font-size: 15%;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+
+    html{
+        font-size: 12%;
+    }
+}
